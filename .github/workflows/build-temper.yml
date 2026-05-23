@@ -1,0 +1,20 @@
+# Copyright 2022 Manna Harbour
+# https://github.com/manna-harbour/miryoku
+
+name: 'Build Temper with dongle'
+on: workflow_dispatch
+jobs:
+  build_halves:
+    uses: ./.github/workflows/main.yml
+    secrets: inherit
+    with:
+      board: '["nice_nano"]'
+      shield: '["temper_left","temper_right","settings_reset"]'
+      kconfig: '["CONFIG_ZMK_POINTING=y"]'
+  build_dongle:
+    uses: ./.github/workflows/main.yml
+    secrets: inherit
+    with:
+      board: '["xiao_ble"]'
+      shield: '["temper_dongle","settings_reset"]'
+      kconfig: '["CONFIG_ZMK_POINTING=y"]'

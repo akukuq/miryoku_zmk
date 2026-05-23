@@ -1,7 +1,8 @@
 # Copyright 2024 Manna Harbour
 # https://github.com/manna-harbour/miryoku
 
-outboard_repository=raeedcho/temper-zmk-config
-outboard_ref=main
+outboard_repository=akukuq/temper-zmk-config
+outboard_ref=dongle
 outboard_from=boards/shields/temper
 outboard_to=boards/shields/temper
+
