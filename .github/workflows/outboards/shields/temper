@@ -2,7 +2,7 @@
 # https://github.com/manna-harbour/miryoku
 
 outboard_repository=akukuq/temper-zmk-config
-outboard_ref=dongle
+outboard_ref=main
 outboard_from=boards/shields/temper
 outboard_to=boards/shields/temper
 

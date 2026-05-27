@@ -11,10 +11,3 @@ jobs:
       board: '["nice_nano"]'
       shield: '["temper_left","temper_right","settings_reset"]'
       kconfig: '["CONFIG_ZMK_POINTING=y"]'
-  build_dongle:
-    uses: ./.github/workflows/main.yml
-    secrets: inherit
-    with:
-      board: '["xiao_ble"]'
-      shield: '["temper_dongle","settings_reset"]'
-      kconfig: '["CONFIG_ZMK_POINTING=y"]'
