@@ -1,7 +1,7 @@
 # Copyright 2022 Manna Harbour
 # https://github.com/manna-harbour/miryoku
 
-name: 'Build Temper with dongle'
+name: 'Build Temper'
 on: workflow_dispatch
 jobs:
   build_halves:
