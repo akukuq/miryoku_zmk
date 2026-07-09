@@ -21,6 +21,7 @@
   #define U_CPY &kp LC(C)
   #define U_CUT &kp LC(X)
   #define U_UND &kp LC(Z)
+  #define U_CMT &kp LC(SLASH)
 #else
   #define U_RDO &kp K_AGAIN
   #define U_PST &kp LS(INS)
